@@ -1,0 +1,90 @@
+PODS:
+  - BaseAPI (0.2.1)
+  - CrowdinSDK (1.4.1):
+    - CrowdinSDK/Core (= 1.4.1)
+    - CrowdinSDK/CrowdinProvider (= 1.4.1)
+  - CrowdinSDK/Core (1.4.1)
+  - CrowdinSDK/CrowdinAPI (1.4.1):
+    - BaseAPI (~> 0.2.0)
+    - CrowdinSDK/Core
+  - CrowdinSDK/CrowdinProvider (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+  - CrowdinSDK/IntervalUpdate (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+  - CrowdinSDK/LoginFeature (1.4.1):
+    - BaseAPI (~> 0.2.0)
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+  - CrowdinSDK/RealtimeUpdate (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+    - CrowdinSDK/LoginFeature
+    - Starscream (~> 4.0.4)
+  - CrowdinSDK/RefreshLocalization (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+  - CrowdinSDK/Screenshots (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+    - CrowdinSDK/LoginFeature
+  - CrowdinSDK/Settings (1.4.1):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinProvider
+    - CrowdinSDK/IntervalUpdate
+    - CrowdinSDK/LoginFeature
+    - CrowdinSDK/RealtimeUpdate
+    - CrowdinSDK/RefreshLocalization
+    - CrowdinSDK/Screenshots
+  - netfox (1.21.0)
+  - Realm (4.3.1):
+    - Realm/Headers (= 4.3.1)
+  - Realm/Headers (4.3.1)
+  - RealmSwift (4.3.1):
+    - Realm (= 4.3.1)
+  - Starscream (4.0.4)
+  - SwiftDate (6.3.1)
+  - SwiftLint (0.45.1)
+
+DEPENDENCIES:
+  - CrowdinSDK (from `../`)
+  - CrowdinSDK/Settings (from `../`)
+  - netfox
+  - RealmSwift (= 4.3.1)
+  - SwiftDate
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - BaseAPI
+    - netfox
+    - Realm
+    - RealmSwift
+    - Starscream
+    - SwiftDate
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  CrowdinSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseAPI: 7a3abac9fa1e19147a5c87dcfbb1829a584cd1ca
+  CrowdinSDK: 00c53864cb2f3e3f9e09ef82704361a4d6e85ae4
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  Realm: 31dc40934081ef740f60feedc46d88473cbfeb40
+  RealmSwift: b5199e9a41f67b99f51acf6874a6166f5fbe93d1
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwiftLint: 06ac37e4d38c7068e0935bb30cda95f093bec761
+
+PODFILE CHECKSUM: 87f20b1feaf7666499e607b45ca22d24d2f7b55e
+
+COCOAPODS: 1.11.2
